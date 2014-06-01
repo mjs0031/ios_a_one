@@ -26,6 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)button_pressed:(UIButton *)sender {
+    NSString *output = [NSString stringWithFormat:@"testing"];
+    _text_display.text = output;
+}
+
 - (IBAction) textFieldDoneEditing:(id)sender{
     [sender resignFirstResponder];
 }
