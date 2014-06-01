@@ -40,6 +40,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                                 <connections>
                                     <action selector="textFieldDoneEditing:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="AJw-L5-0Q9"/>
+                                    <outlet property="delegate" destination="kh9-bI-dsS" id="81u-Er-SAb"/>
                                 </connections>
                             </textField>
                         </subviews>

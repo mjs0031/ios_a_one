@@ -3,7 +3,7 @@
 //  assignment_one
 //
 //  Created by Matthew Swann on 6/1/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Copyright (c) 2014 xmera. All rights reserved.
 //
 
 #import "assignment_oneViewController.h"
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,8 +28,16 @@
 }
 
 - (IBAction)button_pressed:(UIButton *)sender {
-    NSString *output = [NSString stringWithFormat:@"testing"];
-    _text_display.text = output;
+    // INITIAL TRIAL BRANCH
+    //NSString *output = [NSString stringWithFormat:@"testing"];
+    
+    // TRYING DIFFERENT THINGS BRANCH
+    //NSString *output = _text_entry.text;
+    //self.text_display.text = output;
+    
+    // WORKING BRANCH -- DO NOT DELETE
+    NSString *output = self.text_entry.text;
+    self.text_display.text = output;
 }
 
 - (IBAction) textFieldDoneEditing:(id)sender{

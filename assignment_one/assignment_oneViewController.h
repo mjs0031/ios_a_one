@@ -3,12 +3,14 @@
 //  assignment_one
 //
 //  Created by Matthew Swann on 6/1/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Copyright (c) 2014 xmera. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface assignment_oneViewController : UIViewController
+
+//@interface assignment_oneViewController : UIViewController<UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *text_display;
 
