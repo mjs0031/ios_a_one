@@ -10,4 +10,10 @@
 
 @interface assignment_oneViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *text_entry;
+
+- (IBAction) textFieldDoneEditing:(id)sender;
+
+- (IBAction) backgroundTap:(id)sender;
+
 @end
